@@ -6,7 +6,6 @@ function App() {
 
   const [mediaUrl, setMediaUrl] = useState('')
   const [mediaName, setMediaName] = useState('');
-  const [purgeCache, setPurgeCache] = useState('');
 
   const handleMedia = (e) => {
     const selectedMedia = e.target.files[0];
